@@ -8,7 +8,7 @@
 
 import Foundation
 
-public enum ModelResult{
+public enum ModelResult<Any, NSError>{
     case Success(Any)
     case Failure(NSError)
     

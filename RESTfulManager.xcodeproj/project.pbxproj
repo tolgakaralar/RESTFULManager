@@ -15,14 +15,12 @@
 		E0C2B5A81D2115E200C46C2E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0C2B5A61D2115E200C46C2E /* LaunchScreen.storyboard */; };
 		E0C2B5B01D21164D00C46C2E /* HTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0C2B5AF1D21164D00C46C2E /* HTTPClient.swift */; };
 		E0C2B5B21D21174C00C46C2E /* RestfulManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0C2B5B11D21174C00C46C2E /* RestfulManager.swift */; };
-		E0C2B5B41D211A1C00C46C2E /* LibraryAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0C2B5B31D211A1C00C46C2E /* LibraryAPI.swift */; };
-		E0C2B5B61D213D4E00C46C2E /* PersistencyManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0C2B5B51D213D4E00C46C2E /* PersistencyManager.swift */; };
 		E0C2B5BB1D213F8100C46C2E /* Priority.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0C2B5BA1D213F8100C46C2E /* Priority.swift */; };
 		E0C2B5BD1D2140BC00C46C2E /* TicketType.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0C2B5BC1D2140BC00C46C2E /* TicketType.swift */; };
 		E0C2B5BF1D21416E00C46C2E /* SubCatalog.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0C2B5BE1D21416E00C46C2E /* SubCatalog.swift */; };
 		E0C2B5C31D21553900C46C2E /* Ticket.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0C2B5C21D21553900C46C2E /* Ticket.swift */; };
-		E0C2B5C51D22909D00C46C2E /* TestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0C2B5C41D22909D00C46C2E /* TestModel.swift */; };
 		E0C2B5CC1D23FC9900C46C2E /* ModelResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0C2B5CB1D23FC9900C46C2E /* ModelResult.swift */; };
+		E0C2B5CF1D25049700C46C2E /* RestFULConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0C2B5CE1D25049700C46C2E /* RestFULConstants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,14 +36,12 @@
 		E0C2B5A91D2115E200C46C2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E0C2B5AF1D21164D00C46C2E /* HTTPClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPClient.swift; sourceTree = "<group>"; };
 		E0C2B5B11D21174C00C46C2E /* RestfulManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestfulManager.swift; sourceTree = "<group>"; };
-		E0C2B5B31D211A1C00C46C2E /* LibraryAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LibraryAPI.swift; sourceTree = "<group>"; };
-		E0C2B5B51D213D4E00C46C2E /* PersistencyManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersistencyManager.swift; sourceTree = "<group>"; };
 		E0C2B5BA1D213F8100C46C2E /* Priority.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Priority.swift; sourceTree = "<group>"; };
 		E0C2B5BC1D2140BC00C46C2E /* TicketType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TicketType.swift; sourceTree = "<group>"; };
 		E0C2B5BE1D21416E00C46C2E /* SubCatalog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubCatalog.swift; sourceTree = "<group>"; };
 		E0C2B5C21D21553900C46C2E /* Ticket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ticket.swift; sourceTree = "<group>"; };
-		E0C2B5C41D22909D00C46C2E /* TestModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestModel.swift; sourceTree = "<group>"; };
 		E0C2B5CB1D23FC9900C46C2E /* ModelResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelResult.swift; sourceTree = "<group>"; };
+		E0C2B5CE1D25049700C46C2E /* RestFULConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestFULConstants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +94,7 @@
 		E0C2B59C1D2115E200C46C2E /* RESTfulManager */ = {
 			isa = PBXGroup;
 			children = (
+				E0C2B5CD1D25047E00C46C2E /* Support */,
 				E0C2B5B71D213F5200C46C2E /* Model */,
 				E0C2B59D1D2115E200C46C2E /* AppDelegate.swift */,
 				E0C2B59F1D2115E200C46C2E /* ViewController.swift */,
@@ -107,8 +104,6 @@
 				E0C2B5A91D2115E200C46C2E /* Info.plist */,
 				E0C2B5AF1D21164D00C46C2E /* HTTPClient.swift */,
 				E0C2B5B11D21174C00C46C2E /* RestfulManager.swift */,
-				E0C2B5B31D211A1C00C46C2E /* LibraryAPI.swift */,
-				E0C2B5B51D213D4E00C46C2E /* PersistencyManager.swift */,
 			);
 			path = RESTfulManager;
 			sourceTree = "<group>";
@@ -120,10 +115,17 @@
 				E0C2B5BC1D2140BC00C46C2E /* TicketType.swift */,
 				E0C2B5BE1D21416E00C46C2E /* SubCatalog.swift */,
 				E0C2B5C21D21553900C46C2E /* Ticket.swift */,
-				E0C2B5C41D22909D00C46C2E /* TestModel.swift */,
 				E0C2B5CB1D23FC9900C46C2E /* ModelResult.swift */,
 			);
 			name = Model;
+			sourceTree = "<group>";
+		};
+		E0C2B5CD1D25047E00C46C2E /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				E0C2B5CE1D25049700C46C2E /* RestFULConstants.swift */,
+			);
+			name = Support;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -252,11 +254,9 @@
 				E0C2B5A01D2115E200C46C2E /* ViewController.swift in Sources */,
 				E0C2B5BD1D2140BC00C46C2E /* TicketType.swift in Sources */,
 				E0C2B5BF1D21416E00C46C2E /* SubCatalog.swift in Sources */,
-				E0C2B5C51D22909D00C46C2E /* TestModel.swift in Sources */,
-				E0C2B5B61D213D4E00C46C2E /* PersistencyManager.swift in Sources */,
 				E0C2B5BB1D213F8100C46C2E /* Priority.swift in Sources */,
-				E0C2B5B41D211A1C00C46C2E /* LibraryAPI.swift in Sources */,
 				E0C2B59E1D2115E200C46C2E /* AppDelegate.swift in Sources */,
+				E0C2B5CF1D25049700C46C2E /* RestFULConstants.swift in Sources */,
 				E0C2B5C31D21553900C46C2E /* Ticket.swift in Sources */,
 				E0C2B5B01D21164D00C46C2E /* HTTPClient.swift in Sources */,
 				E0C2B5B21D21174C00C46C2E /* RestfulManager.swift in Sources */,

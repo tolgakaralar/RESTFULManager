@@ -22,12 +22,12 @@ class ViewController: UIViewController {
     }
     
     @IBAction func clickedGetRequestButton(sender: AnyObject) {
-        LibraryAPI.sharedInstance.getPriorityList { (result) in
+        RestfulManager.sharedInstance.getPriorityList { (result) in
             switch result {
             case .Success(let data):
                 print(data)
             case .Failure(let error):
-                print(error.domain)
+                print(error.localizedDescription)
             }
         }
     }

@@ -10,10 +10,9 @@ import Foundation
 import Alamofire
 
 class HTTPClient {
-    func getRequest(url:String = "https://httpbin.org/get", completionHandler:(Response<AnyObject, NSError>)->Void) {
+    func getRequest(url:String = "", completionHandler:(Response<AnyObject, NSError>)->Void) {
        
  }
-    
     
     func postRequest(url: String = "", body: [String:AnyObject] = ["":""], header: [String:String] = ["Authorization":"" ,"Content-Type":"application/json"], completionHandler:(response:Response<AnyObject, NSError>)->Void) -> Void  {
         Alamofire.request(.POST, url ,parameters: body, headers:header,encoding:.JSON )
