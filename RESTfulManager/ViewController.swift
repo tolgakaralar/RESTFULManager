@@ -22,6 +22,18 @@ class ViewController: UIViewController {
     }
     
     @IBAction func clickedGetRequestButton(sender: AnyObject) {
+        
+        DataModelFactory.model(ModelType.Priority)?.make({ (result) in
+            switch result {
+                case .Success(let data):
+                print(data)
+                case .Failure(let error):
+                print(error.localizedDescription)
+            }
+
+        })
+        
+        /*
         RestfulManager.sharedInstance.getPriorityList { (result) in
             switch result {
             case .Success(let data):
@@ -30,6 +42,7 @@ class ViewController: UIViewController {
                 print(error.localizedDescription)
             }
         }
+        */
     }
 
 }

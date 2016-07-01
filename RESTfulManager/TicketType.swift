@@ -8,8 +8,15 @@
 
 import Foundation
 
-struct TicketType {
-    var name:String
-    var id:Int
+struct TicketType: DataModel {
+    var name:String?
+    var id:Int?
+    
+    func make(completionHandler:(result:ModelResult<Any, NSError>)->Void) -> Void {
+        RestfulManager.sharedInstance.getPriorityList { (result) in
+            completionHandler(result: result)
+        }
+    }
+    
 }
 

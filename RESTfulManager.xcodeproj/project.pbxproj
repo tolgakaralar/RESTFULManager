@@ -21,6 +21,7 @@
 		E0C2B5C31D21553900C46C2E /* Ticket.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0C2B5C21D21553900C46C2E /* Ticket.swift */; };
 		E0C2B5CC1D23FC9900C46C2E /* ModelResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0C2B5CB1D23FC9900C46C2E /* ModelResult.swift */; };
 		E0C2B5CF1D25049700C46C2E /* RestFULConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0C2B5CE1D25049700C46C2E /* RestFULConstants.swift */; };
+		E0C2B5D11D26611D00C46C2E /* DataModelFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0C2B5D01D26611D00C46C2E /* DataModelFactory.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 		E0C2B5C21D21553900C46C2E /* Ticket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ticket.swift; sourceTree = "<group>"; };
 		E0C2B5CB1D23FC9900C46C2E /* ModelResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelResult.swift; sourceTree = "<group>"; };
 		E0C2B5CE1D25049700C46C2E /* RestFULConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestFULConstants.swift; sourceTree = "<group>"; };
+		E0C2B5D01D26611D00C46C2E /* DataModelFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataModelFactory.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,7 +96,7 @@
 		E0C2B59C1D2115E200C46C2E /* RESTfulManager */ = {
 			isa = PBXGroup;
 			children = (
-				E0C2B5CD1D25047E00C46C2E /* Support */,
+				E0C2B5CD1D25047E00C46C2E /* Support Files */,
 				E0C2B5B71D213F5200C46C2E /* Model */,
 				E0C2B59D1D2115E200C46C2E /* AppDelegate.swift */,
 				E0C2B59F1D2115E200C46C2E /* ViewController.swift */,
@@ -120,12 +122,13 @@
 			name = Model;
 			sourceTree = "<group>";
 		};
-		E0C2B5CD1D25047E00C46C2E /* Support */ = {
+		E0C2B5CD1D25047E00C46C2E /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
 				E0C2B5CE1D25049700C46C2E /* RestFULConstants.swift */,
+				E0C2B5D01D26611D00C46C2E /* DataModelFactory.swift */,
 			);
-			name = Support;
+			name = "Support Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,6 +259,7 @@
 				E0C2B5BF1D21416E00C46C2E /* SubCatalog.swift in Sources */,
 				E0C2B5BB1D213F8100C46C2E /* Priority.swift in Sources */,
 				E0C2B59E1D2115E200C46C2E /* AppDelegate.swift in Sources */,
+				E0C2B5D11D26611D00C46C2E /* DataModelFactory.swift in Sources */,
 				E0C2B5CF1D25049700C46C2E /* RestFULConstants.swift in Sources */,
 				E0C2B5C31D21553900C46C2E /* Ticket.swift in Sources */,
 				E0C2B5B01D21164D00C46C2E /* HTTPClient.swift in Sources */,

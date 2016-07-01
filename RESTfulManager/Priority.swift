@@ -8,10 +8,14 @@
 
 import Foundation
 
-struct Priority{
+struct Priority: DataModel{
     var name:String?
     var id:Int?
     
-    
+    func make(completionHandler:(result:ModelResult<Any, NSError>)->Void) -> Void {
+        RestfulManager.sharedInstance.getPriorityList { (result) in
+            completionHandler(result: result)
+        }
+    }
 }
 
